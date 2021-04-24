@@ -105,14 +105,17 @@ export default function Home({ categories, locations }) {
 }
 
 export const getStaticProps: GetStaticProps = async () => {
-  console.log('process.env.VERCEL_URL', process.env.VERCEL_URL);
+  console.log(
+    'process.env.NEXT_PUBLIC_VERCEL_URL',
+    process.env.NEXT_PUBLIC_VERCEL_URL,
+  );
   const categoriesRes = await fetch(
-    `${process.env.VERCEL_URL}/api/categoriesData`,
+    `${process.env.NEXT_PUBLIC_VERCEL_URL}/api/categoriesData`,
   );
   const categoriesData = await categoriesRes.json();
 
   const locationsRes = await fetch(
-    `${process.env.VERCEL_URL}/api/locationsData`,
+    `${process.env.NEXT_PUBLIC_VERCEL_URL}/api/locationsData`,
   );
   const locationsData = await locationsRes.json();
 
