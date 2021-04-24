@@ -1,6 +1,6 @@
-import { ICategory } from 'api/data';
+import { Category } from 'pages/api/types';
 
-const mockData: ICategory = {
+const mockData: Category = {
   category: 'Candid',
   icon: 'GiSpy',
   keywords: [

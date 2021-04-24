@@ -88,6 +88,16 @@ exports[`<Footer /> matches snapshot 1`] = `
   }
 }
 
+.emotion-6 {
+  font-size: 14px;
+  color: currentColor;
+  border: 1px solid currentColor;
+  padding: 8px 16px;
+  border-radius: 5px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
 <footer
     class="emotion-0 emotion-1"
   >
@@ -119,7 +129,7 @@ exports[`<Footer /> matches snapshot 1`] = `
       </a>
     </div>
     <a
-      href="/contribution"
+      class="emotion-6 emotion-7"
     >
       Contributions are welcomed!
     </a>
