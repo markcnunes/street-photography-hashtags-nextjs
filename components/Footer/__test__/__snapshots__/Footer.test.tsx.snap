@@ -1,0 +1,128 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Footer /> matches snapshot 1`] = `
+<DocumentFragment>
+  .emotion-0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+  font-size: 14px;
+  color: #fff;
+}
+
+@media (min-width: 780px) {
+  .emotion-0 {
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
+}
+
+.emotion-2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.emotion-2 a {
+  color: #fff;
+  margin-left: 5px;
+}
+
+.emotion-2 a:hover {
+  color: #fff;
+}
+
+@media (min-width: 780px) {
+  .emotion-2 {
+    margin-bottom: 0;
+  }
+}
+
+.emotion-4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-flex: 1 0 0;
+  -ms-flex: 1 0 0;
+  flex: 1 0 0;
+  margin-bottom: 20px;
+}
+
+.emotion-4 a {
+  color: #fff;
+  margin: 0 10px;
+}
+
+@media (min-width: 780px) {
+  .emotion-4 {
+    margin-bottom: 0;
+  }
+}
+
+<footer
+    class="emotion-0 emotion-1"
+  >
+    <div
+      class="emotion-2 emotion-3"
+    >
+      Created by
+      <a
+        href="https://www.instagram.com/markcnunes/"
+        rel="noopener noreferrer"
+        target="_blank"
+        title="Mark's website"
+      >
+        Mark Claus Nunes
+      </a>
+    </div>
+    <div
+      class="emotion-4 emotion-5"
+    >
+      <a
+        href="/privacy"
+      >
+        Privacy
+      </a>
+      <a
+        href="/terms"
+      >
+        Terms of use
+      </a>
+    </div>
+    <a
+      href="/contribution"
+    >
+      Contributions are welcomed!
+    </a>
+  </footer>
+</DocumentFragment>
+`;

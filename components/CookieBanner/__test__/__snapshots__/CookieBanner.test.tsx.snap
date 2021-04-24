@@ -1,0 +1,144 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<CookieBanner /> matches snapshot 1`] = `
+<DocumentFragment>
+  .emotion-0 .cookie {
+  position: fixed;
+  z-index: 100;
+  left: 0;
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: #fff;
+  color: #1c1c27;
+  padding: 1.2rem 1.6rem;
+  font-size: 14px;
+}
+
+.emotion-0 .cookie__message {
+  width: 100%;
+  text-align: center;
+  margin: 0 0 1.6rem 0;
+}
+
+.emotion-0 .cookie__message a {
+  color: #1c1c27;
+}
+
+.emotion-0 button {
+  isplay: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 8px 16px;
+  border-radius: 4px;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-transition: background 0.3s ease;
+  transition: background 0.3s ease;
+}
+
+.emotion-0 button#rcc-decline-button {
+  color: #1c1c27;
+  background: #fff;
+  border: 1px solid #1c1c27;
+  margin-right: 1.6rem;
+}
+
+.emotion-0 button#rcc-confirm-button {
+  color: #fff;
+  background: #615cf5;
+  margin-right: 1.6rem;
+}
+
+@media (min-width: 30rem) {
+  .emotion-0 .cookie__message {
+    width: auto;
+    -webkit-flex: 1 0 0;
+    -ms-flex: 1 0 0;
+    flex: 1 0 0;
+    text-align: left;
+    margin: 0 1.6rem 0 0;
+  }
+}
+
+@media (min-width: 50rem) {
+  .emotion-0 .cookie {
+    top: inherit;
+    bottom: 0!important;
+  }
+}
+
+@media (min-width: 70rem) {
+  .emotion-0 .cookie__message {
+    text-align: center;
+    -webkit-flex: inherit;
+    -ms-flex: inherit;
+    flex: inherit;
+  }
+}
+
+<div
+    class="emotion-0 emotion-1"
+  >
+    <div
+      class="cookie"
+      style="bottom: 0px;"
+    >
+      <div
+        class="cookie__message"
+      >
+        This website uses cookies to analyze web traffic. To find out more, read our 
+        <a
+          href="/privacy"
+        >
+          privacy
+        </a>
+         and 
+        <a
+          href="/terms"
+        >
+          terms of use
+        </a>
+        .
+      </div>
+      <div
+        class=""
+      >
+        <button
+          aria-label="Decline cookies"
+          class=""
+          id="rcc-decline-button"
+        >
+          I decline
+        </button>
+        <button
+          aria-label="Accept cookies"
+          class=""
+          id="rcc-confirm-button"
+        >
+          Ok
+        </button>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

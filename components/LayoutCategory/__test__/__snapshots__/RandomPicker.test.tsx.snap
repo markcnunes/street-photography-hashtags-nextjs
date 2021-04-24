@@ -1,0 +1,309 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<RandomPicker /> matchs snapshot 1`] = `
+<DocumentFragment>
+  .emotion-0 h4 {
+  margin-top: 0;
+}
+
+.emotion-0 form>* {
+  width: 100%;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+.emotion-0 label {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-bottom: 10px;
+  padding-left: 20px;
+  border-radius: 5px;
+  border: 1px solid currentColor;
+}
+
+.emotion-0 label::before,
+.emotion-0 label::after {
+  content: "";
+  border-right: 4px solid transparent;
+  border-left: 4px solid transparent;
+  border-top: 4px solid #536075;
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  pointer-events: none;
+}
+
+.emotion-0 label::before {
+  -webkit-transform: translateY(-180%) rotate(180deg);
+  -moz-transform: translateY(-180%) rotate(180deg);
+  -ms-transform: translateY(-180%) rotate(180deg);
+  transform: translateY(-180%) rotate(180deg);
+}
+
+.emotion-0 label::after {
+  -webkit-transform: translateY(-20%);
+  -moz-transform: translateY(-20%);
+  -ms-transform: translateY(-20%);
+  transform: translateY(-20%);
+}
+
+.emotion-0 label select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  margin-left: auto;
+  padding: 10px 45px 10px 35px;
+  background: #fff;
+  border: none;
+  outline: none;
+}
+
+.emotion-0 button svg {
+  width: 25px;
+  height: 25px;
+}
+
+.emotion-2 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: auto;
+  -ms-flex-pack: auto;
+  -webkit-justify-content: auto;
+  justify-content: auto;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  width: auto;
+  opacity: 1;
+  border-radius: 5px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-transition: background 0.3s ease;
+  transition: background 0.3s ease;
+  color: #fff;
+  background: #615cf5;
+  font-size: 16px;
+  padding: 8px 16px;
+  border-radius: 4px;
+}
+
+.emotion-2 svg,
+.emotion-2 span {
+  margin-right: 5px;
+}
+
+.emotion-2:disabled {
+  cursor: auto;
+}
+
+.emotion-2:hover {
+  background: #706bff;
+}
+
+.emotion-2:disabled {
+  background: rgba(83,96,117,0.5);
+  color: #fff;
+}
+
+<div
+    class="emotion-0 emotion-1"
+  >
+    <h4>
+      Random selection of keywords
+    </h4>
+    <form>
+      <label>
+        Quantity
+        <select>
+          <option
+            value="1"
+          >
+            1
+          </option>
+          <option
+            value="2"
+          >
+            2
+          </option>
+          <option
+            value="3"
+          >
+            3
+          </option>
+          <option
+            value="4"
+          >
+            4
+          </option>
+          <option
+            value="5"
+          >
+            5
+          </option>
+          <option
+            value="6"
+          >
+            6
+          </option>
+          <option
+            value="7"
+          >
+            7
+          </option>
+          <option
+            value="8"
+          >
+            8
+          </option>
+          <option
+            value="9"
+          >
+            9
+          </option>
+          <option
+            value="10"
+          >
+            10
+          </option>
+          <option
+            value="11"
+          >
+            11
+          </option>
+          <option
+            value="12"
+          >
+            12
+          </option>
+          <option
+            value="13"
+          >
+            13
+          </option>
+          <option
+            value="14"
+          >
+            14
+          </option>
+          <option
+            value="15"
+          >
+            15
+          </option>
+          <option
+            value="16"
+          >
+            16
+          </option>
+          <option
+            value="17"
+          >
+            17
+          </option>
+          <option
+            value="18"
+          >
+            18
+          </option>
+          <option
+            value="19"
+          >
+            19
+          </option>
+          <option
+            value="20"
+          >
+            20
+          </option>
+          <option
+            value="21"
+          >
+            21
+          </option>
+          <option
+            value="22"
+          >
+            22
+          </option>
+          <option
+            value="23"
+          >
+            23
+          </option>
+          <option
+            value="24"
+          >
+            24
+          </option>
+          <option
+            value="25"
+          >
+            25
+          </option>
+          <option
+            value="26"
+          >
+            26
+          </option>
+          <option
+            value="27"
+          >
+            27
+          </option>
+          <option
+            value="28"
+          >
+            28
+          </option>
+          <option
+            value="29"
+          >
+            29
+          </option>
+          <option
+            value="30"
+          >
+            30
+          </option>
+        </select>
+      </label>
+      <button
+        class="emotion-2 emotion-3"
+        color="primary"
+        title="Generate a random limited selection of keywords"
+      >
+        <svg
+          fill="currentColor"
+          height="1em"
+          stroke="currentColor"
+          stroke-width="0"
+          viewBox="0 0 512 512"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M255.76 44.764c-6.176 0-12.353 1.384-17.137 4.152L85.87 137.276c-9.57 5.536-9.57 14.29 0 19.826l152.753 88.36c9.57 5.536 24.703 5.536 34.272 0l152.753-88.36c9.57-5.535 9.57-14.29 0-19.825l-152.753-88.36c-4.785-2.77-10.96-4.153-17.135-4.153zm-117.313 82.61a31.953 18.96 0 0 1 .002 0 31.953 18.96 0 0 1 21.195 5.536 31.953 18.96 0 0 1-45.19 26.813 31.953 18.96 0 0 1 23.992-32.348zm118.24.245a31.953 18.96 0 0 1 22.125 32.362 31.953 18.96 0 1 1-45.187-26.812 31.953 18.96 0 0 1 23.06-5.55zm119.663.015a31.953 18.96 0 0 1 .002 0 31.953 18.96 0 0 1 21.195 5.535 31.953 18.96 0 0 1-45.19 26.812 31.953 18.96 0 0 1 23.993-32.347zM75.67 173.84c-5.753-.155-9.664 4.336-9.664 12.28v157.696c0 11.052 7.57 24.163 17.14 29.69l146.93 84.848c9.57 5.526 17.14 1.156 17.14-9.895V290.76c0-11.052-7.57-24.16-17.14-29.688l-146.93-84.847c-2.69-1.555-5.225-2.327-7.476-2.387zm360.773.002c-2.25.06-4.783.83-7.474 2.385l-146.935 84.847c-9.57 5.527-17.14 18.638-17.14 29.69v157.7c0 11.05 7.57 15.418 17.14 9.89L428.97 373.51c9.57-5.527 17.137-18.636 17.137-29.688v-157.7c0-7.942-3.91-12.432-9.664-12.278zm-235.146 86.592a31.236 18.008 58.094 0 1 33.818 41.183 31.236 18.008 58.094 1 1-45-25.98 31.236 18.008 58.094 0 1 11.182-15.203zM366.82 289.1a18.008 31.236 31.906 0 1 .002 0 18.008 31.236 31.906 0 1 11.18 15.203 18.008 31.236 31.906 0 1-45 25.98A18.008 31.236 31.906 0 1 366.82 289.1zM89.297 318.48a31.236 18.008 58.094 0 1 33.818 41.184 31.236 18.008 58.094 1 1-45-25.98 31.236 18.008 58.094 0 1 11.182-15.204z"
+          />
+        </svg>
+        I'm Feeling Lucky
+      </button>
+    </form>
+  </div>
+</DocumentFragment>
+`;

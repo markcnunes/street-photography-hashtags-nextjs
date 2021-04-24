@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<NavBar /> matchs snapshot 1`] = `
+<DocumentFragment>
+  .emotion-0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 20px;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  border-radius: 5px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-0 a {
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: #fff;
+  padding: 10px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+
+.emotion-0 a.is-active {
+  border-color: #536075;
+}
+
+.emotion-0 a:hover {
+  border-color: currentColor;
+}
+
+.emotion-0 a+a {
+  margin-left: 10px;
+}
+
+<nav
+    aria-label="main navigation"
+    class="emotion-0 emotion-1"
+    role="navigation"
+  >
+    <a
+      class="is-active"
+      href="/"
+    >
+      Categories
+    </a>
+    <a
+      class="navbar-item"
+      href="/about"
+    >
+      About
+    </a>
+    <a
+      class="navbar-item"
+      href="/contribution"
+    >
+      Contribution
+    </a>
+  </nav>
+</DocumentFragment>
+`;

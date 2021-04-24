@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Button /> matches snapshot 1`] = `
+<DocumentFragment>
+  .emotion-0 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: auto;
+  -ms-flex-pack: auto;
+  -webkit-justify-content: auto;
+  justify-content: auto;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  width: auto;
+  opacity: 1;
+  border-radius: 5px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-transition: background 0.3s ease;
+  transition: background 0.3s ease;
+  color: #fff;
+  background: #615cf5;
+  font-size: 16px;
+  padding: 8px 16px;
+  border-radius: 4px;
+}
+
+.emotion-0:disabled {
+  cursor: auto;
+}
+
+.emotion-0:hover {
+  background: #706bff;
+}
+
+.emotion-0:disabled {
+  background: rgba(83,96,117,0.5);
+  color: #fff;
+}
+
+<button
+    class="emotion-0 emotion-1"
+    color="primary"
+  />
+</DocumentFragment>
+`;

@@ -1,0 +1,455 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<KeywordsList /> matches snapshot 1`] = `
+<DocumentFragment>
+  .emotion-0 {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  background: #fff;
+  border-radius: 5px;
+  width: 100%;
+  padding: 20px;
+}
+
+@media (min-width: 1024px) {
+  .emotion-0 {
+    padding: 40px 30px;
+  }
+}
+
+.emotion-2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: flex-start;
+  -webkit-box-align: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  -webkit-box-flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding-right: 30px;
+  min-height: 70px;
+}
+
+.emotion-2 a {
+  color: #1c1c27;
+  padding: 5px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  border-radius: 5px;
+  border: 1px solid transparent;
+}
+
+.emotion-2 a:hover {
+  border-color: #536075;
+}
+
+.emotion-2:hover a {
+  color: #536075;
+}
+
+.emotion-2:hover a:hover {
+  color: #1c1c27;
+}
+
+@media (max-width: 420px) {
+  .emotion-2 {
+    font-size: 12px;
+  }
+}
+
+.emotion-4 {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+@media (min-width: 1024px) {
+  .emotion-4 {
+    top: 40px;
+  }
+}
+
+.emotion-6 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 28px;
+  width: 28px;
+  font-size: 10px;
+  color: #1c1c27;
+  border: 1px solid #1c1c27;
+  border-radius: 5px;
+  opacity: 0.5;
+  margin-bottom: 10px;
+}
+
+.emotion-9 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: auto;
+  -ms-flex-pack: auto;
+  -webkit-justify-content: auto;
+  justify-content: auto;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  width: auto;
+  opacity: 1;
+  border-radius: 5px;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  -webkit-transition: background 0.3s ease;
+  transition: background 0.3s ease;
+  color: #fff;
+  background: #1c1c27;
+  font-size: 16px;
+  padding: 8px 16px;
+  border-radius: 4px;
+  border: 1px solid currentColor;
+  background: transparent;
+  color: #1c1c27;
+  padding: 5px;
+}
+
+.emotion-9:disabled {
+  cursor: auto;
+}
+
+.emotion-9:hover {
+  background: #474762;
+}
+
+.emotion-9:disabled {
+  color: rgba(83,96,117,0.5);
+}
+
+.emotion-9:hover {
+  background: rgba(28,28,39,0.05);
+}
+
+.emotion-9:hover:disabled {
+  background: transparent;
+  color: rgba(83,96,117,0.5);
+}
+
+<div
+    class="emotion-0 emotion-1"
+  >
+    <div
+      class="emotion-2 emotion-3"
+    >
+      <a
+        href="https://www.instagram.com/explore/tags/test1/"
+        rel="noopener noreferrer"
+        target="_blank"
+        title="View test1 on Instagram"
+      >
+        #test1
+      </a>
+      <a
+        href="https://www.instagram.com/explore/tags/test2/"
+        rel="noopener noreferrer"
+        target="_blank"
+        title="View test2 on Instagram"
+      >
+        #test2
+      </a>
+      <a
+        href="https://www.instagram.com/explore/tags/test3/"
+        rel="noopener noreferrer"
+        target="_blank"
+        title="View test3 on Instagram"
+      >
+        #test3
+      </a>
+      <a
+        href="https://www.instagram.com/explore/tags/test4/"
+        rel="noopener noreferrer"
+        target="_blank"
+        title="View test4 on Instagram"
+      >
+        #test4
+      </a>
+      <a
+        href="https://www.instagram.com/explore/tags/test5/"
+        rel="noopener noreferrer"
+        target="_blank"
+        title="View test5 on Instagram"
+      >
+        #test5
+      </a>
+      <a
+        href="https://www.instagram.com/explore/tags/test6/"
+        rel="noopener noreferrer"
+        target="_blank"
+        title="View test6 on Instagram"
+      >
+        #test6
+      </a>
+      <a
+        href="https://www.instagram.com/explore/tags/test7/"
+        rel="noopener noreferrer"
+        target="_blank"
+        title="View test7 on Instagram"
+      >
+        #test7
+      </a>
+      <a
+        href="https://www.instagram.com/explore/tags/test8/"
+        rel="noopener noreferrer"
+        target="_blank"
+        title="View test8 on Instagram"
+      >
+        #test8
+      </a>
+      <a
+        href="https://www.instagram.com/explore/tags/test9/"
+        rel="noopener noreferrer"
+        target="_blank"
+        title="View test9 on Instagram"
+      >
+        #test9
+      </a>
+      <a
+        href="https://www.instagram.com/explore/tags/test10/"
+        rel="noopener noreferrer"
+        target="_blank"
+        title="View test10 on Instagram"
+      >
+        #test10
+      </a>
+      <a
+        href="https://www.instagram.com/explore/tags/test11/"
+        rel="noopener noreferrer"
+        target="_blank"
+        title="View test11 on Instagram"
+      >
+        #test11
+      </a>
+      <a
+        href="https://www.instagram.com/explore/tags/test12/"
+        rel="noopener noreferrer"
+        target="_blank"
+        title="View test12 on Instagram"
+      >
+        #test12
+      </a>
+      <a
+        href="https://www.instagram.com/explore/tags/test13/"
+        rel="noopener noreferrer"
+        target="_blank"
+        title="View test13 on Instagram"
+      >
+        #test13
+      </a>
+      <a
+        href="https://www.instagram.com/explore/tags/test14/"
+        rel="noopener noreferrer"
+        target="_blank"
+        title="View test14 on Instagram"
+      >
+        #test14
+      </a>
+      <a
+        href="https://www.instagram.com/explore/tags/test15/"
+        rel="noopener noreferrer"
+        target="_blank"
+        title="View test15 on Instagram"
+      >
+        #test15
+      </a>
+      <a
+        href="https://www.instagram.com/explore/tags/test16/"
+        rel="noopener noreferrer"
+        target="_blank"
+        title="View test16 on Instagram"
+      >
+        #test16
+      </a>
+      <a
+        href="https://www.instagram.com/explore/tags/test17/"
+        rel="noopener noreferrer"
+        target="_blank"
+        title="View test17 on Instagram"
+      >
+        #test17
+      </a>
+      <a
+        href="https://www.instagram.com/explore/tags/test18/"
+        rel="noopener noreferrer"
+        target="_blank"
+        title="View test18 on Instagram"
+      >
+        #test18
+      </a>
+      <a
+        href="https://www.instagram.com/explore/tags/test19/"
+        rel="noopener noreferrer"
+        target="_blank"
+        title="View test19 on Instagram"
+      >
+        #test19
+      </a>
+      <a
+        href="https://www.instagram.com/explore/tags/test20/"
+        rel="noopener noreferrer"
+        target="_blank"
+        title="View test20 on Instagram"
+      >
+        #test20
+      </a>
+      <a
+        href="https://www.instagram.com/explore/tags/test21/"
+        rel="noopener noreferrer"
+        target="_blank"
+        title="View test21 on Instagram"
+      >
+        #test21
+      </a>
+      <a
+        href="https://www.instagram.com/explore/tags/test22/"
+        rel="noopener noreferrer"
+        target="_blank"
+        title="View test22 on Instagram"
+      >
+        #test22
+      </a>
+      <a
+        href="https://www.instagram.com/explore/tags/test23/"
+        rel="noopener noreferrer"
+        target="_blank"
+        title="View test23 on Instagram"
+      >
+        #test23
+      </a>
+      <a
+        href="https://www.instagram.com/explore/tags/test24/"
+        rel="noopener noreferrer"
+        target="_blank"
+        title="View test24 on Instagram"
+      >
+        #test24
+      </a>
+      <a
+        href="https://www.instagram.com/explore/tags/test25/"
+        rel="noopener noreferrer"
+        target="_blank"
+        title="View test25 on Instagram"
+      >
+        #test25
+      </a>
+      <a
+        href="https://www.instagram.com/explore/tags/test26/"
+        rel="noopener noreferrer"
+        target="_blank"
+        title="View test26 on Instagram"
+      >
+        #test26
+      </a>
+      <a
+        href="https://www.instagram.com/explore/tags/test27/"
+        rel="noopener noreferrer"
+        target="_blank"
+        title="View test27 on Instagram"
+      >
+        #test27
+      </a>
+      <a
+        href="https://www.instagram.com/explore/tags/test28/"
+        rel="noopener noreferrer"
+        target="_blank"
+        title="View test28 on Instagram"
+      >
+        #test28
+      </a>
+      <a
+        href="https://www.instagram.com/explore/tags/test29/"
+        rel="noopener noreferrer"
+        target="_blank"
+        title="View test29 on Instagram"
+      >
+        #test29
+      </a>
+      <a
+        href="https://www.instagram.com/explore/tags/test30/"
+        rel="noopener noreferrer"
+        target="_blank"
+        title="View test30 on Instagram"
+      >
+        #test30
+      </a>
+    </div>
+    <div
+      class="emotion-4 emotion-5"
+    >
+      <div
+        class="emotion-6 emotion-7"
+      >
+        30
+      </div>
+      <button
+        class="emotion-8 emotion-9 emotion-10"
+        color="black"
+        title="Copy all to clipboard"
+      >
+        <svg
+          fill="none"
+          height="1em"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          viewBox="0 0 24 24"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"
+          />
+          <rect
+            height="4"
+            rx="1"
+            ry="1"
+            width="8"
+            x="8"
+            y="2"
+          />
+        </svg>
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`;
