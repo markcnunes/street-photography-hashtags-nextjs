@@ -76,7 +76,7 @@ export default function Contribution({ allCategories }) {
 }
 
 export const getStaticProps: GetStaticProps = async () => {
-  const res = await fetch('http://localhost:3000/api/categoriesData');
+  const res = await fetch(`${process.env.VERCEL_URL}/api/categoriesData`);
   const data = await res.json();
 
   // Pass post data to the page via props

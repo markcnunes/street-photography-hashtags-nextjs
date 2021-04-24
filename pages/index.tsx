@@ -105,10 +105,15 @@ export default function Home({ categories, locations }) {
 }
 
 export const getStaticProps: GetStaticProps = async () => {
-  const categoriesRes = await fetch('http://localhost:3000/api/categoriesData');
+  console.log('process.env.VERCEL_URL', process.env.VERCEL_URL);
+  const categoriesRes = await fetch(
+    `${process.env.VERCEL_URL}/api/categoriesData`,
+  );
   const categoriesData = await categoriesRes.json();
 
-  const locationsRes = await fetch('http://localhost:3000/api/locationsData');
+  const locationsRes = await fetch(
+    `${process.env.VERCEL_URL}/api/locationsData`,
+  );
   const locationsData = await locationsRes.json();
 
   // Pass post data to the page via props

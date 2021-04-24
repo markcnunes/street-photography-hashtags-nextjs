@@ -31,10 +31,14 @@ export const getStaticPaths = async () => {
 export const getStaticProps: GetStaticProps = async ({ params }) => {
   const categorySlug = params.category as string;
 
-  const categoriesRes = await fetch('http://localhost:3000/api/categoriesData');
+  const categoriesRes = await fetch(
+    `${process.env.VERCEL_URL}/api/categoriesData`,
+  );
   const categoriesData = await categoriesRes.json();
 
-  const locationsRes = await fetch('http://localhost:3000/api/locationsData');
+  const locationsRes = await fetch(
+    `${process.env.VERCEL_URL}/api/locationsData`,
+  );
   const locationsData = await locationsRes.json();
 
   let category: CategoryType[];
@@ -62,7 +66,9 @@ const fetchCatagoriesPaths = async (): Promise<{ params: any }[]> => {
   };
 
   // It creates different paths for each category
-  const categoriesRes = await fetch('http://localhost:3000/api/categoriesData');
+  const categoriesRes = await fetch(
+    `${process.env.VERCEL_URL}/api/categoriesData`,
+  );
   const categoriesData = await categoriesRes.json();
   const categoriesPaths = categoriesData
     .map((category) => ({
@@ -71,7 +77,9 @@ const fetchCatagoriesPaths = async (): Promise<{ params: any }[]> => {
     .flat();
 
   // It creates different paths for each location
-  const locationsRes = await fetch('http://localhost:3000/api/locationsData');
+  const locationsRes = await fetch(
+    `${process.env.VERCEL_URL}/api/locationsData`,
+  );
   const locationsData = await locationsRes.json();
   const locationsPath = locationsData.map((location) => ({
     params: { category: location.category },
