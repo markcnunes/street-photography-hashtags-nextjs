@@ -66,61 +66,64 @@ const StyledLocations = styled('div')({
   },
 });
 
-export default function Home({ categories, locations }) {
-  const { category: allCategory, icon: allIcon } = generateAllData(categories);
-  return (
-    <>
-      <Head>
-        <title>Street Photography Hashtags</title>
-        <link rel='icon' href='/favicon.ico' />
-      </Head>
-      <StyledHome>
-        <StyledSubheader>
-          <h1>Street Photography Hashtags</h1>
-          <h2>A curation of hashtags for street photography on Instagram.</h2>
-        </StyledSubheader>
-        <main>
-          <div>
-            <LinkCTA category={allCategory} icon={allIcon} key={allCategory} />
-            {categories.map((item) => (
-              <LinkCTA
-                category={item.category}
-                icon={item.icon}
-                key={item.category}
-              />
-            ))}
-          </div>
-          <StyledLocations>
-            <h3>Locations</h3>
-            <div>
-              {locations.map((item) => (
-                <LinkCTA category={item.category} key={item.category} />
-              ))}
-            </div>
-          </StyledLocations>
-        </main>
-      </StyledHome>
-    </>
-  );
+export default function Home() {
+  return <div>Test</div>;
 }
+// export default function Home({ categories, locations }) {
+//   const { category: allCategory, icon: allIcon } = generateAllData(categories);
+//   return (
+//     <>
+//       <Head>
+//         <title>Street Photography Hashtags</title>
+//         <link rel='icon' href='/favicon.ico' />
+//       </Head>
+//       <StyledHome>
+//         <StyledSubheader>
+//           <h1>Street Photography Hashtags</h1>
+//           <h2>A curation of hashtags for street photography on Instagram.</h2>
+//         </StyledSubheader>
+//         <main>
+//           <div>
+//             <LinkCTA category={allCategory} icon={allIcon} key={allCategory} />
+//             {categories.map((item) => (
+//               <LinkCTA
+//                 category={item.category}
+//                 icon={item.icon}
+//                 key={item.category}
+//               />
+//             ))}
+//           </div>
+//           <StyledLocations>
+//             <h3>Locations</h3>
+//             <div>
+//               {locations.map((item) => (
+//                 <LinkCTA category={item.category} key={item.category} />
+//               ))}
+//             </div>
+//           </StyledLocations>
+//         </main>
+//       </StyledHome>
+//     </>
+//   );
+// }
 
-export const getStaticProps: GetStaticProps = async () => {
-  console.log('process.env.VERCEL_URL', process.env.VERCEL_URL);
-  const categoriesRes = await fetch(
-    `${process.env.VERCEL_URL}/api/categoriesData`,
-  );
-  const categoriesData = await categoriesRes.json();
+// export const getStaticProps: GetStaticProps = async () => {
+//   console.log('process.env.VERCEL_URL', process.env.VERCEL_URL);
+//   const categoriesRes = await fetch(
+//     `${process.env.VERCEL_URL}/api/categoriesData`,
+//   );
+//   const categoriesData = await categoriesRes.json();
 
-  const locationsRes = await fetch(
-    `${process.env.VERCEL_URL}/api/locationsData`,
-  );
-  const locationsData = await locationsRes.json();
+//   const locationsRes = await fetch(
+//     `${process.env.VERCEL_URL}/api/locationsData`,
+//   );
+//   const locationsData = await locationsRes.json();
 
-  // Pass post data to the page via props
-  return {
-    props: {
-      categories: categoriesData,
-      locations: locationsData,
-    },
-  };
-};
+//   // Pass post data to the page via props
+//   return {
+//     props: {
+//       categories: categoriesData,
+//       locations: locationsData,
+//     },
+//   };
+// };

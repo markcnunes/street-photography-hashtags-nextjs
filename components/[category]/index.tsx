@@ -1,7 +1,7 @@
 import { GetStaticProps } from 'next';
 import LayoutCategory from 'components/LayoutCategory';
 import generateAllData from 'helpers/generateAllData';
-import { Category as CategoryType } from '../api/types';
+import { Category as CategoryType } from '../../pages/api/types';
 
 function Category({ category }) {
   return (
