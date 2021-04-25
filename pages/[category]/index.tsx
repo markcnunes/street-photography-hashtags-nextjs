@@ -32,12 +32,12 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
   const categorySlug = params.category as string;
 
   const categoriesRes = await fetch(
-    `${process.env.NEXT_PUBLIC_VERCEL_URL}/api/categoriesData`,
+    `${process.env.VERCEL_URL}/api/categoriesData`,
   );
   const categoriesData = await categoriesRes.json();
 
   const locationsRes = await fetch(
-    `${process.env.NEXT_PUBLIC_VERCEL_URL}/api/locationsData`,
+    `${process.env.VERCEL_URL}/api/locationsData`,
   );
   const locationsData = await locationsRes.json();
 
@@ -67,7 +67,7 @@ const fetchCatagoriesPaths = async (): Promise<{ params: any }[]> => {
 
   // It creates different paths for each category
   const categoriesRes = await fetch(
-    `${process.env.NEXT_PUBLIC_VERCEL_URL}/api/categoriesData`,
+    `${process.env.VERCEL_URL}/api/categoriesData`,
   );
   const categoriesData = await categoriesRes.json();
   const categoriesPaths = categoriesData
@@ -78,7 +78,7 @@ const fetchCatagoriesPaths = async (): Promise<{ params: any }[]> => {
 
   // It creates different paths for each location
   const locationsRes = await fetch(
-    `${process.env.NEXT_PUBLIC_VERCEL_URL}/api/locationsData`,
+    `${process.env.VERCEL_URL}/api/locationsData`,
   );
   const locationsData = await locationsRes.json();
   const locationsPath = locationsData.map((location) => ({
