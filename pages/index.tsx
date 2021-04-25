@@ -66,8 +66,8 @@ const StyledLocations = styled('div')({
   },
 });
 
-export default function Home() {
-  return <div>Test</div>;
+export default function Home({ url }) {
+  return <div>URL: {url}</div>;
 }
 // export default function Home({ categories, locations }) {
 //   const { category: allCategory, icon: allIcon } = generateAllData(categories);
@@ -127,3 +127,12 @@ export default function Home() {
 //     },
 //   };
 // };
+
+export const getStaticProps: GetStaticProps = async () => {
+  // Pass post data to the page via props
+  return {
+    props: {
+      url: process.env.VERCEL_URL,
+    },
+  };
+};
