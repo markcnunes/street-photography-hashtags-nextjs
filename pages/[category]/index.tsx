@@ -1,4 +1,5 @@
 import { GetStaticProps } from 'next';
+import Head from 'next/head';
 import LayoutCategory from 'components/LayoutCategory';
 import generateAllData from 'helpers/generateAllData';
 import { Category as CategoryType, Location } from 'data/types';
@@ -7,12 +8,17 @@ import locations from 'data/locations';
 
 function Category({ category }) {
   return (
-    <LayoutCategory
-      category={category.category}
-      icon={category.icon}
-      keywords={category.keywords}
-      subcategories={category.subcategories}
-    />
+    <>
+      <Head>
+        <title>Street Photography Hashtags - {category.category}</title>
+      </Head>
+      <LayoutCategory
+        category={category.category}
+        icon={category.icon}
+        keywords={category.keywords}
+        subcategories={category.subcategories}
+      />
+    </>
   );
 }
 

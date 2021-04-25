@@ -1,9 +1,10 @@
 import categories from 'data/categories';
 import locations from 'data/locations';
+import { Category, Location } from 'data/types';
 import generateAllData from 'helpers/generateAllData';
 
 export default function categoryHandler({ query: { category } }, res) {
-  let filtered;
+  let filtered: Category[] | Location[];
   if (category === 'all') {
     filtered = [generateAllData(categories)];
   } else if (categories.find((item) => item.category === category)) {
