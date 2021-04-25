@@ -3,7 +3,7 @@ import { rgba } from 'polished';
 import React from 'react';
 import { FiXCircle } from 'react-icons/fi';
 import Modal from 'react-modal';
-import { Category } from 'pages/api/types';
+import { Category } from 'data/types';
 import Button from 'components/Button';
 import KeywordsList from 'components/KeywordsList/KeywordsList';
 

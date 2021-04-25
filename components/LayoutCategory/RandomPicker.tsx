@@ -1,7 +1,7 @@
 import styled from '@emotion/styled';
 import React, { useState } from 'react';
 import { GiPerspectiveDiceSixFacesThree } from 'react-icons/gi';
-import { Category } from 'pages/api/types';
+import { Category } from 'data/types';
 import Button from 'components/Button';
 import RandomModal from './RandomModal';
 

@@ -5,7 +5,7 @@ import CategoryIcon from './CategoryIcon';
 import RandomPicker from './RandomPicker';
 import KeywordsList from 'components/KeywordsList/KeywordsList';
 import CategoryFilter from './CategoryFilter';
-import { Category } from 'pages/api/types';
+import { Category } from 'data/types';
 
 type LayoutCategoryProps = Category;
 

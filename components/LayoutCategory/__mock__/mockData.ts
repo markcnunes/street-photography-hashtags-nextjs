@@ -1,4 +1,4 @@
-import { Category } from 'pages/api/types';
+import { Category } from 'data/types';
 
 const mockData: Category = {
   category: 'candid',

@@ -10,7 +10,7 @@ import {
   GiSpy,
   GiTrophy,
 } from 'react-icons/gi';
-import { CategoryIcon as CategoryIconType } from '../../pages/api/types';
+import { CategoryIcon as CategoryIconType } from '../../data/types';
 
 /**
  * Re-export icons and load them dynamically as a variant instead of the component name

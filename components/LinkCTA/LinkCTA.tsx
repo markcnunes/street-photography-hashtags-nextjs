@@ -2,7 +2,7 @@ import styled from '@emotion/styled';
 import { darken, rgba } from 'polished';
 import Link from 'next/link';
 import CategoryIcon from 'components/LayoutCategory/CategoryIcon';
-import { CategoryIcon as CategoryIconType } from 'pages/api/types';
+import { CategoryIcon as CategoryIconType } from 'data/types';
 
 interface LinkCTAProps {
   /**

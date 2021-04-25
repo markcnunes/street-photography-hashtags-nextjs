@@ -3,7 +3,7 @@ import Button from 'components/Button';
 import KeywordsList from 'components/KeywordsList';
 import { rgba } from 'polished';
 import { useState } from 'react';
-import { Category } from 'pages/api/types';
+import { Category } from 'data/types';
 
 type VerifyKeywordProps = Pick<Category, 'keywords'>;
 

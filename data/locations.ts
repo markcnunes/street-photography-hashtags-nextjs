@@ -1,4 +1,4 @@
-import { Location } from '../../data/types';
+import { Location } from './types';
 
 const locations: Location[] = [
   {
@@ -18,7 +18,4 @@ const locations: Location[] = [
   },
 ];
 
-export default (req, res): void => {
-  res.statusCode = 200;
-  res.json(locations);
-};
+export default locations;

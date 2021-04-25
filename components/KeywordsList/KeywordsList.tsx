@@ -3,7 +3,7 @@ import Button from 'components/Button';
 import React from 'react';
 import { FiClipboard } from 'react-icons/fi';
 import { toast } from 'react-toastify';
-import { Category } from 'pages/api/types';
+import { Category } from 'data/types';
 
 interface KeywordsListProps extends Pick<Category, 'keywords'> {
   /**
