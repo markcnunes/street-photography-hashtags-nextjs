@@ -66,8 +66,13 @@ const StyledLocations = styled('div')({
   },
 });
 
-export default function Home({ url }) {
-  return <div>URL: {url}</div>;
+export default function Home({ http, url }) {
+  return (
+    <div style={{ color: 'white' }}>
+      <div>http: {http}</div>
+      <div>URL: {url}</div>
+    </div>
+  );
 }
 // export default function Home({ categories, locations }) {
 //   const { category: allCategory, icon: allIcon } = generateAllData(categories);
@@ -129,10 +134,12 @@ export default function Home({ url }) {
 // };
 
 export const getStaticProps: GetStaticProps = async () => {
+  const { NEXT_HTTP, VERCEL_URL } = process.env;
   // Pass post data to the page via props
   return {
     props: {
-      url: process.env.VERCEL_URL,
+      http: NEXT_HTTP,
+      url: VERCEL_URL,
     },
   };
 };
