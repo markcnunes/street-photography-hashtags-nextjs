@@ -77,38 +77,26 @@ It usually will take me within 24-48 hours to respond to any issue or request. H
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-### Available Scripts
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-In the project directory, you can run:
+## Getting Started
 
-#### `npm start`
+First, run the development server:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+```bash
+yarn dev
+```
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-#### `npm test`
+## Learn More
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+To learn more about Next.js, take a look at the following resources:
 
-#### `npm run build`
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-#### `npm run deploy`
-
-Publish files to the gh-pages branch on GitHub. This is only meant to be used by one of the administrators of this project once everything is ready to be published.
-
-See details about [deployment](https://github.com/tschaub/gh-pages) for more information.
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
 ---
 

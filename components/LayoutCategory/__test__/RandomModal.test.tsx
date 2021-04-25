@@ -1,5 +1,5 @@
 import React from 'react';
-import { render, screen } from 'utils/test-utils';
+import { render, screen } from 'test/setupTests';
 import RandomModal from '../RandomModal';
 import mockData from '../__mock__/mockData';
 

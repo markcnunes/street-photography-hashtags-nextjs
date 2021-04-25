@@ -1,5 +1,5 @@
 import React from 'react';
-import { render, screen } from 'utils/test-utils';
+import { render, screen } from 'test/setupTests';
 import userEvent from '@testing-library/user-event';
 import VerifyKeyword from '../VerifyKeyword';
 import mockData from '../__mock__/mockData';

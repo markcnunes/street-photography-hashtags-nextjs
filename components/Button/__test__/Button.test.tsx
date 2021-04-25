@@ -1,6 +1,6 @@
 import { rgba } from 'polished';
 import React from 'react';
-import { render } from 'utils/test-utils';
+import { render } from 'test/setupTests';
 import theme from 'assests/theme';
 
 import Button from '../Button';

@@ -1,6 +1,6 @@
 import React from 'react';
-import MockNextRouter from 'utils/MockNextRouter';
-import { render, screen } from 'utils/test-utils';
+import MockNextRouter from 'test/MockNextRouter';
+import { render, screen } from 'test/setupTests';
 import LinkCTA from '../LinkCTA';
 import mockData from '../__mock__/mockData';
 

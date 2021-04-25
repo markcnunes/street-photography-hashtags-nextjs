@@ -1,6 +1,6 @@
 import userEvent from '@testing-library/user-event';
 import React from 'react';
-import { render, screen } from 'utils/test-utils';
+import { render, screen } from 'test/setupTests';
 import CategoryFilter from '../CategoryFilter';
 
 const mockOptions = ['first', 'second', 'third'];

@@ -1,6 +1,6 @@
 import React from 'react';
-import MockNextRouter from 'utils/MockNextRouter';
-import { render } from 'utils/test-utils';
+import MockNextRouter from 'test/MockNextRouter';
+import { render } from 'test/setupTests';
 import NavBar from '../NavBar';
 
 describe('<NavBar />', () => {

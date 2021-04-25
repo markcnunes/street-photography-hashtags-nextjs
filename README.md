@@ -1,34 +1,44 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<div align="center">
+	<h1>Street Photography Hashtags</h1>
+	<a href="https://markclausnunes.com/markcnunes.github.io/street-photography-hashtags">
+        <img width="300" height="150" src="./media/logo-white-bg.svg" alt="Street Photography Hashtags">
+    </a>
+	<br/>
+	<a href="https://markclausnunes.com/markcnunes.github.io/street-photography-hashtags">
+        View website
+    </a>
+	<br/>
+	<br/>
+	<h4>
+		Created by <a href="https://www.instagram.com/markcnunes/">Mark Claus Nunes</a> 
+	</h4>
+</div>
 
-## Getting Started
+<br/>
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+## About
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+A curation of hashtags divided by specific categories for street photography posts on Instagram. All keywords have been added as suggestions and we are happy to update if there is an awsome keyword missing from our list.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## Author & Contributors
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+This project was created by [Mark Nunes](https://github.com/markcnunes) but hopefully developed and maintained by many others.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Contributing
 
-## Learn More
+Contributions are welcomed! Check out our [Contribution Guidelines](contributing.md) if you have suggestions to improve the categories or fancy developing some of the features.
 
-To learn more about Next.js, take a look at the following resources:
+## Ways You Can Help/Support this project
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Star** this repository and tell all your friends about it.
+- **Watch** for new releases to get an update if something happens.
+- **Open a Pull Request** to include support to improve some of the features or fixes against [existing issues](https://github.com/markcnunes/street-photography-hashtags/issues).
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- **Tell me you like this project or how it helped you out!**
 
-## Deploy on Vercel
+  - [Comment in the project's guestbook](https://github.com/markcnunes/street-photography-hashtags/issues/1) 😊
+  - Reach out on [Instagram](https://www.instagram.com/markcnunes/) 📸
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Thanks for your interest in this project :heart:
